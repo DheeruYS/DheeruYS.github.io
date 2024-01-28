@@ -1,15 +1,28 @@
-h1{
-    color: blue;
-    font-size: 40px;
+.heading{
+    font-size: 30px;
+    font-family: sans-serif;
     font-weight: bold;
+}
+
+.aboutme{
+    font-size: 18px;
+    font-family: sans-serif;
 }
 
 .container{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    margin-left: 10px;
 }
 
-p{
-    font-size: 20px;
-    color: blue;
+.institute{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.eduinfo{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
 }
