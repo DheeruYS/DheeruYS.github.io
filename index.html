@@ -5,76 +5,97 @@
     <head>
         <title> Sudheera Y S</title>
         <link rel = "stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src = "script.js"></script>
         <meta charset="UTF-8">
     </head>
 
-    <body>
+    <body class="whitebody" id="bod">
 
-    <div class="container">
+    <div class="topnav">
+        <a href="#about">Home</a>
+        <a href="#edu">Education</a>
+        <a href="#achieve">Achievements</a>
+        <a href="#skill">Skill</a>
+    </div>
+
+    <div class="container1" id="about">
         <div>
             <p class="heading">Welcome to my Homepage !</p>
-            <p class="aboutme">&#128075 Hi, I'm Sudheera Y S</p>
+            <p class="aboutme">&#128075 Hi, I'm Sudheera Yelimeli Sridhar</p>
             <p class="aboutme">&#128064 I'm interested in Programming!</p>
             <p class="aboutme">&#127793 I'm currently in my first of year of CSD Program at IIIT Hyderabad</p>
             <p class="aboutme"> &#128247; Wildlife Photographer</p>
             <p class="aboutme"> &#127936; Learning basketball!</p>
             
         </div>
+        
         <img src="PassportSizePhoto.jpg" width="200" height="200" style="margin-right:100px; margin-top: 30px; border-radius: 100%;">
+        <button onclick="changeTheme()" id="changetheme" style="height: 40px; margin-top: 30px; margin-right: 10px;">Dark Mode</button>
     </div>
 
-    <hr height="30px" color="black" width="75%">
+    <p class="aboutme">Check out my <a href="Resume.pdf">Resume!</a></p>
+    <p class="aboutme">Check out my Socials!</a></p>
 
-    <div style="margin-left: 10px;">
+    <div class="container2">
+        
+        <a href="https://www.linkedin.com/in/sudheerays/" class="fa fa-linkedin" style="font-size: 50px; margin-right: 10px;"></a>
+        <a href="https://github.com/DheeruYS" class="fa fa-github" style="font-size: 50px; margin-right: 10px;"></a>
+        <a href="https://www.instagram.com/dheerays/" class="fa fa-instagram" style="font-size: 50px; margin-right: 10px;"></a>
+        <a href="mailto:sudheerays@gmail.com" class="fa fa-envelope" style="font-size: 50px; margin-right: 10px;"></a>
+    </div>
+
+    <hr height="30px" width="75%">
+
+    <div style="margin-left: 10px;" id="edu">
         <p class="heading">Education</p>
         
-        <p class="institute">International Institute of Information Technology - Hyderabad (IIIT Hyderabad)</p>
-        <p class="eduinfo">B.Tech in CSE + MS in CSE by Research<br>2023 - Present</p>
+        <p class="biggerheading">International Institute of Information Technology - Hyderabad (IIIT Hyderabad)</p>
+        <p class="smallertext">B.Tech in CSE + MS in CSE by Research<br>2023 - Present</p>
 
-        <p class="institute">National Institute of Open Schooling (NIOS)</p>
-        <p class="eduinfo">Grade 12<br>2021 - 2023</p>
+        <p class="biggerheading">National Institute of Open Schooling (NIOS)</p>
+        <p class="smallertext">Grade 12<br>2021 - 2023</p>
 
-        <p class="institute">Purnapramati School</p>
-        <p class="eduinfo">Grade 10<br>2020 - 2021</p>
+        <p class="biggerheading">Purnapramati School</p>
+        <p class="smallertext">Grade 10<br>2020 - 2021</p>
     </div>
 
-    <hr height="30px" color="black" width="75%">
+    <hr height="30px" width="75%">
 
-    <div style="margin-left: 10px;">
+    <div style="margin-left: 10px;" id = "achieve">
         <p class="heading">Achievements & Awards</p>
         
-        <p class="institute">International Olympiad in Informatics Training Camp (IOITC) - 2023</p>
-        <p class="eduinfo" style="margin-right: 200px;">Qualified INOI-2023 and attended the Training Camp conducted by IARCS (Indian Association for Research in Computing Science) at CMI (Chennai Mathematical Institute) from 6 June to 12 June 2023. This was the second stage of the Indian Computing Olympiad where 30 students were selected.</p>
+        <p class="biggerheading">International Olympiad in Informatics Training Camp (IOITC) - 2023</p>
+        <p class="smallertext" style="margin-right: 200px;">Qualified INOI-2023 and attended the Training Camp conducted by IARCS (Indian Association for Research in Computing Science) at CMI (Chennai Mathematical Institute) from 6 June to 12 June 2023. This was the second stage of the Indian Computing Olympiad where 30 students were selected.</p>
         
-        <p class="institute">Indian National Olympiad in Informatics (INOI) 2023 - Silver Medal</p>
-        <p class="eduinfo">Ranked top 15 nationally, awarded a Silver Medal at INOI-2023.</p>
+        <p class="biggerheading">Indian National Olympiad in Informatics (INOI) 2023 - Silver Medal</p>
+        <p class="smallertext">Ranked top 15 nationally, awarded a Silver Medal at INOI-2023.</p>
 
-        <p class="institute">Competitive Programming</p>
-        <p class="eduinfo">Expert on Codeforces (max rating: 1649, handle: DheeruYS).<br>Secured Rank 1 at ISPC contest conducted by Amrita Vishwa Vidyapeetham.</p>
+        <p class="biggerheading">Competitive Programming</p>
+        <p class="smallertext">Expert on Codeforces (max rating: 1649, handle: DheeruYS).<br>Secured Rank 1 at ISPC contest conducted by Amrita Vishwa Vidyapeetham.</p>
         
     </div>
 
-    <hr height="30px" color="black" width="75%">
+    <hr height="30px" width="75%">
 
-    <div style="margin-left: 10px;">
+    <div style="margin-left: 10px;" id="skill">
         <p class="heading">Skills & Hobbies</p>
         
-        <p class="institute">Programming Languages & frameworks</p>
-        <p class="eduinfo">C, C++, Python, HTML, CSS</p>
+        <p class="biggerheading">Programming Languages & frameworks</p>
+        <p class="smallertext">C, C++, Python, HTML, CSS</p>
         
-        <p class="institute">Skills</p>
-        <p class="eduinfo">Competitive Programming, Data Structures, Algorithms, Web Development, Git</p>
+        <p class="biggerheading">Skills</p>
+        <p class="smallertext">Competitive Programming, Data Structures, Algorithms, Web Development, Git</p>
 
-        <p class="institute">Languages</p>
-        <p class="eduinfo">English, Kannada, Hindi, Sanskrit</p>
+        <p class="biggerheading">Languages</p>
+        <p class="smallertext">English, Kannada, Sanskrit, Hindi</p>
 
-        <p class="institute">Hobbies</p>
-        <p class="eduinfo">Wildlife Photography, Basketball</p>
+        <p class="biggerheading">Hobbies</p>
+        <p class="smallertext">Wildlife Photography, Basketball</p>
 
     </div>
 
-    <hr height="30px" color="black" width="75%">
+    <hr height="30px" width="75%">
         
     </body>
 </html>
