@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Sudheera Y S</title>
+        <link rel = "stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src = "script.js"></script>
+        <meta charset="UTF-8">
+    </head>
+
+    <body class="body" id="body" onload="setData('num1')">
+
+        <nav class="nav">
+            <a href="./index.html" class="navlink">Home</a>
+            <button><i onclick="changeTheme()" id="changetheme" class="fa fa-moon-o"></i></button>
+        </nav>
+
+        <div class="container2">
+            <div class="heading">
+                &#128247
+                Wildlife Shots
+                <i id="liker" class="fa fa-heart" onclick="counter('num1')"></i>
+                <span id="number"></span>
+            </div>
+        </div>
+
+        <div class="container2">
+                <input type="text" id="comm1" name="comm1">
+                <button onclick="addComment(document.getElementById('comm1').value,'num1')">Comment</button>
+        </div>
+
+        <div class="container" id="comment1num1">
+            <div class="biggerheading">Comments:</div>
+        </div>
+        
+        
+        <div class="container1" id="shots">
+            <div class="container2">
+                <img src="Images/Shikra.png" height="400px" width="400px" style="object-fit: cover;">
+                <img src="Images/APF.jpg" height="400px" style="object-fit: cover;">
+                <img src="Images/TBF.png" height="400px" style="object-fit:cover"> 
+                <img src="Images/Sunbird.png" height="400px" width="400px" style="object-fit: cover;">
+                <img src="Images/CSB.png" height="400px" width="400px" style="object-fit: cover;">
+                <img src="Images/roller.jpg" height="400px" width="400px" style="object-fit: cover;">
+            </div>
+        </div>
+        
+    </body>
+</html>

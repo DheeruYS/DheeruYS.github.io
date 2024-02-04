@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Sudheera Y S</title>
+        <link rel = "stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src = "script.js"></script>
+        <meta charset="UTF-8">
+    </head>
+
+    <body class="body" id="body" onload="setData('num2')">
+
+        <nav class="nav">
+            <a href="./index.html" class="navlink">Home</a>
+            <button><i onclick="changeTheme()" id="changetheme" class="fa fa-moon-o"></i></button>
+        </nav>
+
+        <div class="container2">
+            <div class="heading">
+                Random Blog
+                <i id="liker" class="fa fa-heart" onclick="counter('num2')"></i>
+                <span id="number"></span>
+            </div>
+        </div>
+
+        <div class="container2">
+                <input type="text" id="comm2" name="comm2">
+                <button onclick="addComment(document.getElementById('comm2').value,'num2')">Comment</button>
+        </div>
+
+        <div class="container" id="comment1num2">
+            <div class="biggerheading">Comments:</div>
+        </div>
+
+        <div class="container1"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda modi sit perspiciatis! Amet quod nesciunt facilis vero tenetur earum molestias eius, quidem alias dolor praesentium ullam dolore natus officia voluptatum.</div>
+        
+    </body>
+</html>

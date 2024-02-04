@@ -10,15 +10,16 @@
         <meta charset="UTF-8">
     </head>
 
-    <body class="body" id="bod">
+    <body class="body" id="bod" onload="setTheme()">
     
         <nav class="nav">
             <a href="#about" class="navlink">Home</a>
             <a href="#edu" class="navlink">Education</a>
             <a href="#achieve" class="navlink">Achievements</a>
             <a href="#skill" class="navlink">Skill</a>
-            <a href="#shots" class="navlink">Shots</a>
-            <button onclick="changeTheme()" id="changetheme">Dark Mode</button>
+            <a href="#blogs" class="navlink">Blogs</a>
+            
+            <button><i onclick="changeTheme()" id="changetheme" class="fa fa-moon-o"></i></button>
         </nav>
 
         <div class="container1" id="about">
@@ -26,10 +27,10 @@
                 <div class="heading">&#128075 Hello! I'm Sudheera Y S</div>
                 <div class="aboutme">&#128064 I'm interested in Programming!</div>
                 <div class="aboutme">&#127793 I'm currently in my first of year of CSD Program at IIIT Hyderabad</div>
-                <div class="aboutme"> &#128247; Wildlife Photographer</div>
+                <div class="aboutme"> &#128247; Wildlife Photographer, Naturalist</div>
                 <div class="aboutme"> &#127936; Learning basketball!</div>
 
-                <div class="aboutme" style="font-weight: bold;">Check out my <a href="Resume.pdf" target="_blank">Resume</a> or connect with me on my Socials!</div>
+                <div class="aboutme" style="font-weight: bold;">Check out my <a href="Resume.pdf" target="_blank" style="color: blue;">Resume</a> or connect with me on my Socials!</div>
     
                 <div class="container2">
                     <a href="https://www.linkedin.com/in/sudheerays/" target="_blank" class="fa fa-linkedin"></a>
@@ -88,14 +89,11 @@
             </div>
         </div>  
         
-        <div class="container1" id="shots">
-            <div class="container2">
-                <img src="Images/Shikra.png" height="400px" width="400px" style="object-fit: cover;">
-                <img src="Images/APF.jpg" height="400px" style="object-fit: cover;">
-                <img src="Images/TBF.png" height="400px" style="object-fit:cover"> 
-                <img src="Images/Sunbird.png" height="400px" width="400px" style="object-fit: cover;">
-                <img src="Images/CSB.png" height="400px" width="400px" style="object-fit: cover;">
-                <img src="Images/roller.jpg" height="400px" width="400px" style="object-fit: cover;">
+        <div class="container1" id="blogs">
+            <div class="container">
+                <a href="./WildlifePhotography.html" style="font-size: 25px;color: red;">Wildlife Shots</a>
+                <br>
+                <a href="./blog2.html"  style="font-size: 25px;color: red;">Random Blog</a>
             </div>
         </div>
         
