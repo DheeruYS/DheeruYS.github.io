@@ -5,7 +5,7 @@ body{
 }
 
 .heading{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -48,7 +48,6 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 10px;
-    border:3px solid black;
 }
 
 .container{
@@ -94,6 +93,10 @@ nav{
     color: purple;
 }
 
+.fa-file-text-o{
+    color: black;
+}
+
 .fa-heart{
     font-size: 50px;
 }
@@ -111,8 +114,50 @@ nav{
 
 .smallertext{
     font-size: 20px;
+    margin-left: 20px;
 }
 
 img{
     margin:20px
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogs{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.blog{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 150px;
+}
+
+.profilephoto{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.mainpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+    flex-direction: column;
 }

@@ -26,9 +26,11 @@ function setData(idd){
 }
 
 function counter(idd){
-    document.getElementById("number").innerHTML = 1;
-    localStorage.setItem(idd, 1);
-    document.getElementsByClassName('fa-heart')[0].style.color='red';
+    var x = document.getElementById("number").innerHTML;
+    document.getElementById("number").innerHTML = 1-x;
+    localStorage.setItem(idd, 1-x);
+    if((1-x) > 0) document.getElementsByClassName('fa-heart')[0].style.color='red';
+    else document.getElementsByClassName('fa-heart')[0].style.color=null;
 }
 
 function addComment(comment, idd){
@@ -73,8 +75,14 @@ function loadTheme(){
 
         cur = document.getElementsByClassName('container1');
         for(i = 0; i < cur.length; i++) cur[i].style.border = '3px solid white';
+
+        cur = document.getElementsByClassName('blog');
+        for(i = 0; i < cur.length; i++) cur[i].style.border = '2px solid white';
         
         cur = document.getElementsByClassName('fa-github');
+        for(i = 0; i < cur.length; i++) cur[i].style.color = 'white';
+
+        cur = document.getElementsByClassName('fa-file-text-o');
         for(i = 0; i < cur.length; i++) cur[i].style.color = 'white';
         
 
@@ -97,7 +105,13 @@ function loadTheme(){
         cur = document.getElementsByClassName('container1');
         for(i = 0; i < cur.length; i++) cur[i].style.border = '3px solid black';
 
+        cur = document.getElementsByClassName('blog');
+        for(i = 0; i < cur.length; i++) cur[i].style.border = '2px solid black';
+
         cur = document.getElementsByClassName('fa-github');
+        for(i = 0; i < cur.length; i++) cur[i].style.color = 'black';
+
+        cur = document.getElementsByClassName('fa-file-text-o');
         for(i = 0; i < cur.length; i++) cur[i].style.color = 'black';
         
 

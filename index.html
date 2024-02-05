@@ -7,6 +7,7 @@
         <link rel = "stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src = "script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
     </head>
 
@@ -22,27 +23,31 @@
             <button><i onclick="changeTheme()" id="changetheme" class="fa fa-moon-o"></i></button>
         </nav>
 
-        <div class="container1" id="about">
-            <div class="container">
-                <div class="heading">&#128075 Hello! I'm Sudheera Y S</div>
-                <div class="aboutme">&#128064 I'm interested in Programming!</div>
-                <div class="aboutme">&#127793 I'm currently in my first of year of CSD Program at IIIT Hyderabad</div>
-                <div class="aboutme"> &#128247; Wildlife Photographer, Naturalist</div>
-                <div class="aboutme"> &#127936; Learning basketball!</div>
-
-                <div class="aboutme" style="font-weight: bold;">Check out my <a href="Resume.pdf" target="_blank" style="color: blue;">Resume</a> or connect with me on my Socials!</div>
+        <section>
+        <!-- <div class="container1" id="about"> -->
+            <div class="profilephoto"><img src="Images/PassportSizePhoto.jpg" height="200px" width="200px" style="border-radius: 50%;"></div>
+            <div class="mainpage" >
+                
+                <div class="heading">Sudheera Y S</div>
+                <div class="aboutme">&#128064 I'm interested in Programming</div>
+                <div class="aboutme">&#127891 CSD Freshman at IIIT Hyderabad</div>
+                <div class="aboutme">&#128247 Wildlife Photographer</div>
+                <div class="aboutme"> &#127936 Learning basketball!</div>
     
                 <div class="container2">
+                    <a href="Resume.pdf" target="_blank" class="fa fa-file-text-o"></a>
                     <a href="https://www.linkedin.com/in/sudheerays/" target="_blank" class="fa fa-linkedin"></a>
                     <a href="https://github.com/DheeruYS" target="_blank" class="fa fa-github"></a>
                     <a href="https://www.instagram.com/dheerays/" target="_blank" class="fa fa-instagram"></a>
                     <a href="mailto:sudheerays@gmail.com" target="_blank" class="fa fa-envelope"></a>
                 </div>   
             </div>
-            <img src="Images/PassportSizePhoto.jpg" width="20%" height="20%">
-        </div>
+            
+        <!-- </div> -->
+        </section>
 
-        <div class="container1">
+        <section>
+        <!-- <div class="container1"> -->
             <div class="container" id="edu">
                 <div class="heading">Education</div>
                 
@@ -55,9 +60,11 @@
                 <div class="biggerheading">Purnapramati School</div>
                 <div class="smallertext">Grade 10<br>2020 - 2021</div>
             </div>
-        </div>
+        <!-- </div> -->
+        </section>
 
-        <div class="container1">
+        <section>
+        <!-- <div class="container1"> -->
             <div class="container" id = "achieve">
                 <div class="heading">Achievements & Awards</div>
                 
@@ -70,9 +77,11 @@
                 <div class="biggerheading">Competitive Programming</div>
                 <div class="smallertext">Expert on Codeforces (max rating: 1649, handle: DheeruYS).<br>Secured Rank 1 at ISPC contest conducted by Amrita Vishwa Vidyapeetham.</div>
             </div>
-        </div>
-        
-        <div class="container1">
+        <!-- </div> -->
+        </section>
+
+        <section>
+        <!-- <div class="container1"> -->
             <div class="container" id="skill">
                 <div class="heading">Skills & Hobbies</div>
                 <div class="biggerheading">Programming Languages & frameworks</div>
@@ -87,15 +96,27 @@
                 <div class="biggerheading">Hobbies</div>
                 <div class="smallertext">Wildlife Photography, Basketball</div>
             </div>
-        </div>  
+        <!-- </div>   -->
+        </section>
         
-        <div class="container1" id="blogs">
-            <div class="container">
-                <a href="./WildlifePhotography.html" style="font-size: 25px;color: red;">Wildlife Shots</a>
-                <br>
-                <a href="./blog2.html"  style="font-size: 25px;color: red;">Random Blog</a>
-            </div>
-        </div>
+
+        <section id="blogs">
+            <!-- <div class="blogs" id="blogs"> -->
+                <div class="heading">Blogs</div>
+                <div class="blogs">
+                    <div class="blog" id="blogs">
+                        <a href="./WildlifePhotography.html" style="font-size: 25px;text-decoration: none; color: green;">Wildlife Shots</a>
+                        <br>
+                        <div> All my Wildlife Photos</div>
+                    </div>
+                    <div class="blog">
+                        <a href="./blog2.html"  style="font-size: 25px;text-decoration: none; color: green;">Random Blog</a>
+                        <br>
+                        <div> Random Blog just to fill the space</div>
+                    </div>
+                </div>
+            <!-- </div> -->  
+        </section>
         
     </body>
 </html>
