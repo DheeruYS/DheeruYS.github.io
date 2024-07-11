@@ -1,122 +1,173 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
+<head>
+    <title> Sudheera Y S</title>
+    <link rel = "stylesheet" href="styles.css">        
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+</head>
 
-    <head>
-        <title> Sudheera Y S</title>
-        <link rel = "stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src = "script.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-    </head>
-
-    <body class="body" id="bod" onload="setTheme()">
-    
-        <nav class="nav">
-            <a href="#about" class="navlink">Home</a>
-            <a href="#edu" class="navlink">Education</a>
-            <a href="#achieve" class="navlink">Achievements</a>
-            <a href="#skill" class="navlink">Skill</a>
-            <a href="#blogs" class="navlink">Blogs</a>
-            
-            <button><i onclick="changeTheme()" id="changetheme" class="fa fa-moon-o"></i></button>
-        </nav>
-
-        <section id="about">
-        <!-- <div class="container1" id="about"> -->
-            <div class="profilephoto"><img src="Images/PassportSizePhoto.jpg" height="200px" width="200px" style="border-radius: 50%;"></div>
-            <div class="mainpage" >
-                
-                <div class="heading">Sudheera Y S</div>
-                <div class="aboutme">&#128064 I'm interested in Programming</div>
-                <div class="aboutme">&#127891 CSD Freshman at IIIT Hyderabad</div>
-                <div class="aboutme">&#128247 Wildlife Photographer</div>
-                <div class="aboutme"> &#127936 Learning basketball!</div>
-    
-                <div class="container2">
-                    <a href="Resume.pdf" target="_blank" class="fa fa-file-text-o"></a>
-                    <a href="https://www.linkedin.com/in/sudheerays/" target="_blank" class="fa fa-linkedin"></a>
-                    <a href="https://github.com/DheeruYS" target="_blank" class="fa fa-github"></a>
-                    <a href="https://www.instagram.com/dheerays/" target="_blank" class="fa fa-instagram"></a>
-                    <a href="mailto:sudheerays@gmail.com" target="_blank" class="fa fa-envelope"></a>
-                </div>   
-            </div>
-            
-        <!-- </div> -->
-        </section>
-
-        <section>
-        <!-- <div class="container1"> -->
-            <div class="container" id="edu">
-                <div class="heading">Education</div>
-                
-                <div class="biggerheading">International Institute of Information Technology - Hyderabad (IIIT Hyderabad)</div>
-                <div class="smallertext">B.Tech in CSE + MS in CSE by Research<br>2023 - Present</div>
-
-                <div class="biggerheading">National Institute of Open Schooling (NIOS)</div>
-                <div class="smallertext">Grade 12<br>2021 - 2023</div>
-
-                <div class="biggerheading">Purnapramati School</div>
-                <div class="smallertext">Grade 10<br>2020 - 2021</div>
-            </div>
-        <!-- </div> -->
-        </section>
-
-        <section>
-        <!-- <div class="container1"> -->
-            <div class="container" id = "achieve">
-                <div class="heading">Achievements & Awards</div>
-                
-                <div class="biggerheading">International Olympiad in Informatics Training Camp (IOITC) - 2023</div>
-                <div class="smallertext">Qualified INOI-2023 and attended the Training Camp conducted by IARCS (Indian Association for Research in Computing Science) at CMI (Chennai Mathematical Institute) from 6 June to 12 June 2023. This was the second stage of the Indian Computing Olympiad where 30 students were selected.</div>
-                
-                <div class="biggerheading">Indian National Olympiad in Informatics (INOI) 2023 - Silver Medal</div>
-                <div class="smallertext">Ranked top 15 nationally, awarded a Silver Medal at INOI-2023.</div>
-    
-                <div class="biggerheading">Competitive Programming</div>
-                <div class="smallertext">Expert on Codeforces (max rating: 1649, handle: DheeruYS).<br>Secured Rank 1 at ISPC contest conducted by Amrita Vishwa Vidyapeetham.</div>
-            </div>
-        <!-- </div> -->
-        </section>
-
-        <section>
-        <!-- <div class="container1"> -->
-            <div class="container" id="skill">
-                <div class="heading">Skills & Hobbies</div>
-                <div class="biggerheading">Programming Languages & frameworks</div>
-                <div class="smallertext">C, C++, Python, HTML & CSS</div>
-                
-                <div class="biggerheading">Skills</div>
-                <div class="smallertext">Competitive Programming, Data Structures, Algorithms, Web Development, Git</div>
-
-                <div class="biggerheading">Languages</div>
-                <div class="smallertext">English, Kannada, Sanskrit, Hindi</div>
-
-                <div class="biggerheading">Hobbies</div>
-                <div class="smallertext">Wildlife Photography, Basketball</div>
-            </div>
-        <!-- </div>   -->
-        </section>
+<body class="bg-slate-50">
+    <div class="h-screen p-4 m-4 flex flex-col">
+        <div class="flex items-center justify-center">
+            <img src="Images/PassportSizePhoto.jpg" class="rounded-full w-64 h-64 border-2 border-black">
+        </div>
         
+        <div class="text-center text-5xl mt-5 text-wrap">
+            Sudheera Y S
+        </div>
+        
+        <div class="mt-5 text-center text-3xl text-wrap text-slate-500 w-2/3 mx-auto">
+            2nd Year CSD Student @ IIIT-Hyderabad | Wildlife Photographer | Expert on Codeforces | IOITC 2023
+        </div>
 
-        <section id="blogs">
-            <!-- <div class="blogs" id="blogs"> -->
-                <div class="heading">Blogs</div>
-                <div class="blogs">
-                    <div class="blog" id="blogs">
-                        <a href="./WildlifePhotography.html" style="font-size: 25px;text-decoration: none; color: green;">Wildlife Shots</a>
-                        <br>
-                        <div> All my Wildlife Photos</div>
-                    </div>
-                    <div class="blog">
-                        <a href="./blog2.html"  style="font-size: 25px;text-decoration: none; color: green;">Random Blog</a>
-                        <br>
-                        <div> Random Blog just to fill the space</div>
-                    </div>
+        <div class="mt-10 flex flex-row flex-wrap items-center justify-center space-x-2">
+
+            <a href="https://github.com/DheeruYS" target="_blank" >
+                <span class="[&>svg]:h-10 [&>svg]:w-10 [&>svg]:fill-[#333]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                    <path
+                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                    </svg>
+                </span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/sudheerays/" target="_blank" >
+                <span class="[&>svg]:h-10 [&>svg]:w-10 [&>svg]:fill-[#0077b5]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path
+                        d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                    </svg>
+                </span>                  
+            </a>
+
+            <a href="https://www.instagram.com/dheerays/" target="_blank"">
+                <span class="[&>svg]:h-10 [&>svg]:w-10 [&>svg]:fill-[#c13584]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                </span>
+            </a>
+
+            <a href="mailto:sudheerays@gmail.com" target="_blank"">
+                <span class="[&>svg]:h-9 [&>svg]:w-9 [&>svg]:fill-[#ea4335]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path
+                      d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
+                    </svg>
+                </span>
+            </a>            
+
+        </div>
+    </div> 
+
+    <div class="p-4 m-4">
+
+        <div class="text-3xl font-bold">Experience</div>
+        <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+            <li>
+            <div class="timeline-middle">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="h-5 w-5">
+                <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd" />
+                </svg>
+            </div>
+            <div class="timeline-start mb-10 md:text-end">
+                <time class="font-mono italic">May-July 2024</time>
+                <div class="text-lg font-black">Vidyasvam</div>
+                Full Stack Developer Intern<br><br>
+                Developed a full-stack website with a Python backend, TailwindCSS, MySQL, and JavaScript, and deployed it online. Implemented a user management system and used an RDBMS for database management.
+            </div>
+            <hr />
+            </li>
+            
+            
+        </ul>
+    </div>
+    
+    <div class="p-4 m-4">
+
+        <div class="text-3xl font-bold">Education</div>
+        <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+            <li>
+                <hr />
+                <div class="timeline-middle">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    class="h-5 w-5">
+                    <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                        clip-rule="evenodd" />
+                    </svg>
                 </div>
-            <!-- </div> -->  
-        </section>
-        
-    </body>
+                <div class="timeline-start mb-10 md:text-end">
+                    <time class="font-mono italic">2021</time>
+                    <div class="text-lg font-black">Purnapramati School</div>
+                    Class X<br>
+                    Grade: 96.16
+                </div>
+                <hr />
+            </li>
+            <li>
+                <hr />
+                <div class="timeline-middle">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    class="h-5 w-5">
+                    <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                        clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="timeline-end mb-10">
+                    <time class="font-mono italic">2021-2023</time>
+                    <div class="text-lg font-black">National Institute of Open Schooling (NIOS)</div>
+                    Class XII<br>
+                    Grade: 92.2
+                </div>
+                <hr />
+            </li>
+            <li>
+            <div class="timeline-middle">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="h-5 w-5">
+                <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd" />
+                </svg>
+            </div>
+            <div class="timeline-start mb-10 md:text-end">
+                <time class="font-mono italic">2023-Present</time>
+                <div class="text-lg font-black">IIIT Hyderabad</div>
+                B.Tech + MS(by Research) in CSE<br>
+                CGPA: 9.39
+            </div>
+            <hr />
+            </li>
+            
+            
+            
+        </ul>
+    </div>
+</body>
 </html>
